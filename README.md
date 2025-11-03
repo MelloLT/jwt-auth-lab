@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 docker-compose up --build
 
 (GET)http://localhost:8080/api/test/all
@@ -12,3 +13,6 @@ docker-compose up --build
 
 
 
+=======
+# jwt-auth-lab
+>>>>>>> origin/main
