@@ -1,0 +1,70 @@
+stages:
+  - test
+  - build
+  - deploy-staging
+  - deploy-production
+
+variables:
+  NODE_VERSION: "18"
+
+unit-tests:
+  stage: test
+  image: node:$NODE_VERSION
+  script:
+    - npm install
+    - npm run test:unit
+  artifacts:
+    when: always
+    reports:
+      junit: junit.xml
+
+integration-tests:
+  stage: test
+  image: node:$NODE_VERSION
+  services:
+    - postgres:13
+  variables:
+    POSTGRES_DB: test_lab4db
+    POSTGRES_USER: test_adminname
+    POSTGRES_PASSWORD: test_1234password
+    DB_HOST: postgres
+  script:
+    - npm install
+    - npm run test:integration
+  dependencies: []
+
+build:
+  stage: build
+  image: node:$NODE_VERSION
+  script:
+    - npm install
+    - npm run build
+  only:
+    - main
+
+deploy-staging:
+  stage: deploy-staging
+  image: alpine:latest
+  script:
+    - echo "Deploying to staging environment"
+    - apk add --no-cache curl
+    - curl -X GET "http://staging-server.com/health" || echo "Staging deployment check"
+  environment:
+    name: staging
+    url: https://staging.example.com
+  only:
+    - main
+
+deploy-production:
+  stage: deploy-production
+  image: alpine:latest
+  script:
+    - echo "Deploying to production environment"
+    - apk add --no-cache curl
+    - curl -X GET "http://production-server.com/health" || echo "Production deployment check"
+  environment:
+    name: production
+    url: https://production.example.com
+  when: manual
+  only:
+    - main

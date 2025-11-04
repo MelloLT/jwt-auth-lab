@@ -1,55 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762191244821" clover="3.2.0">
-  <project timestamp="1762191244822" name="All files">
-    <metrics statements="191" coveredstatements="156" conditionals="44" coveredconditionals="29" methods="38" coveredmethods="26" elements="273" coveredelements="211" complexity="0" loc="191" ncloc="191" packages="6" files="14" classes="14"/>
+<coverage generated="1762265037283" clover="3.2.0">
+  <project timestamp="1762265037283" name="All files">
+    <metrics statements="195" coveredstatements="169" conditionals="51" coveredconditionals="32" methods="40" coveredmethods="33" elements="286" coveredelements="234" complexity="0" loc="195" ncloc="195" packages="6" files="14" classes="14"/>
     <package name="jwt-auth">
-      <metrics statements="29" coveredstatements="21" conditionals="4" coveredconditionals="1" methods="6" coveredmethods="2"/>
+      <metrics statements="33" coveredstatements="26" conditionals="11" coveredconditionals="2" methods="8" coveredmethods="5"/>
       <file name="server.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/server.js">
-        <metrics statements="29" coveredstatements="21" conditionals="4" coveredconditionals="1" methods="6" coveredmethods="2"/>
+        <metrics statements="33" coveredstatements="26" conditionals="11" coveredconditionals="2" methods="8" coveredmethods="5"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
-        <line num="40" count="2" type="stmt"/>
-        <line num="43" count="2" type="stmt"/>
-        <line num="51" count="2" type="stmt"/>
-        <line num="61" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="63" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="65" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="59" count="2" type="cond" truecount="0" falsecount="3"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
         <line num="70" count="2" type="stmt"/>
-        <line num="71" count="2" type="stmt"/>
-        <line num="72" count="2" type="stmt"/>
-        <line num="76" count="2" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="81" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="85" count="2" type="stmt"/>
       </file>
     </package>
     <package name="jwt-auth.app.config">
       <metrics statements="2" coveredstatements="2" conditionals="8" coveredconditionals="8" methods="0" coveredmethods="0"/>
       <file name="auth.config.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/config/auth.config.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
       <file name="db.config.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/config/db.config.js">
         <metrics statements="1" coveredstatements="1" conditionals="8" coveredconditionals="8" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
     </package>
     <package name="jwt-auth.app.controllers">
-      <metrics statements="59" coveredstatements="49" conditionals="14" coveredconditionals="9" methods="17" coveredmethods="12"/>
+      <metrics statements="59" coveredstatements="50" conditionals="14" coveredconditionals="9" methods="17" coveredmethods="13"/>
       <file name="auth.controller.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/controllers/auth.controller.js">
         <metrics statements="53" coveredstatements="45" conditionals="14" coveredconditionals="9" methods="14" coveredmethods="11"/>
         <line num="1" count="2" type="stmt"/>
@@ -71,22 +75,22 @@
         <line num="34" count="1" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
         <line num="43" count="2" type="stmt"/>
-        <line num="44" count="2" type="stmt"/>
-        <line num="50" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="50" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="51" count="0" type="stmt"/>
-        <line num="54" count="2" type="stmt"/>
-        <line num="59" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="59" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="60" count="0" type="stmt"/>
-        <line num="66" count="2" type="stmt"/>
-        <line num="67" count="2" type="stmt"/>
-        <line num="80" count="2" type="stmt"/>
-        <line num="92" count="2" type="stmt"/>
-        <line num="94" count="2" type="stmt"/>
-        <line num="102" count="2" type="stmt"/>
-        <line num="103" count="2" type="stmt"/>
-        <line num="104" count="2" type="stmt"/>
-        <line num="105" count="2" type="stmt"/>
-        <line num="107" count="2" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="92" count="3" type="stmt"/>
+        <line num="94" count="3" type="stmt"/>
+        <line num="102" count="3" type="stmt"/>
+        <line num="103" count="3" type="stmt"/>
+        <line num="104" count="3" type="stmt"/>
+        <line num="105" count="4" type="stmt"/>
+        <line num="107" count="3" type="stmt"/>
         <line num="119" count="0" type="stmt"/>
         <line num="123" count="2" type="stmt"/>
         <line num="124" count="1" type="stmt"/>
@@ -107,53 +111,53 @@
         <line num="184" count="0" type="stmt"/>
       </file>
       <file name="user.controller.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/controllers/user.controller.js">
-        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
-        <line num="6" count="6" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
     </package>
     <package name="jwt-auth.app.middleware">
-      <metrics statements="59" coveredstatements="42" conditionals="18" coveredconditionals="11" methods="8" coveredmethods="5"/>
+      <metrics statements="59" coveredstatements="49" conditionals="18" coveredconditionals="13" methods="8" coveredmethods="8"/>
       <file name="authJwt.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/middleware/authJwt.js">
-        <metrics statements="34" coveredstatements="23" conditionals="10" coveredconditionals="6" methods="4" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="8" type="stmt"/>
-        <line num="10" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="16" count="7" type="stmt"/>
-        <line num="17" count="7" type="stmt"/>
-        <line num="18" count="7" type="stmt"/>
-        <line num="25" count="7" type="cond" truecount="1" falsecount="1"/>
+        <metrics statements="34" coveredstatements="30" conditionals="10" coveredconditionals="8" methods="4" coveredmethods="4"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="10" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="25" count="9" type="cond" truecount="1" falsecount="1"/>
         <line num="26" count="0" type="stmt"/>
-        <line num="31" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="9" type="cond" truecount="2" falsecount="0"/>
         <line num="32" count="1" type="stmt"/>
-        <line num="37" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="8" type="cond" truecount="1" falsecount="1"/>
         <line num="38" count="0" type="stmt"/>
-        <line num="44" count="6" type="stmt"/>
-        <line num="48" count="6" type="stmt"/>
-        <line num="49" count="6" type="stmt"/>
-        <line num="50" count="6" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="58" count="2" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
-        <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="63" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
+        <line num="44" count="8" type="stmt"/>
+        <line num="48" count="8" type="stmt"/>
+        <line num="49" count="8" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
         <line num="68" count="0" type="stmt"/>
         <line num="71" count="0" type="stmt"/>
-        <line num="76" count="2" type="stmt"/>
-        <line num="80" count="2" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/middleware/index.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -163,10 +167,10 @@
       </file>
       <file name="verifySignUp.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/middleware/verifySignUp.js">
         <metrics statements="22" coveredstatements="16" conditionals="8" coveredconditionals="5" methods="4" coveredmethods="4"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="11" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="12" count="0" type="stmt"/>
@@ -176,54 +180,54 @@
         <line num="24" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
         <line num="30" count="2" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
         <line num="36" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="37" count="1" type="stmt"/>
-        <line num="38" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="39" count="0" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
         <line num="47" count="2" type="stmt"/>
-        <line num="50" count="2" type="stmt"/>
-        <line num="55" count="2" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
       </file>
     </package>
     <package name="jwt-auth.app.models">
       <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/models/index.js">
         <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="37" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
       </file>
       <file name="role.model.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/models/role.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
       </file>
       <file name="token-usage.model.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/models/token-usage.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
       </file>
       <file name="user.model.js" path="/Users/menglinurmamedova/Downloads/lesson6/jwt-auth/app/models/user.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
       </file>
     </package>
     <package name="jwt-auth.app.routes">
@@ -234,8 +238,8 @@
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
-        <line num="6" count="13" type="stmt"/>
-        <line num="10" count="13" type="stmt"/>
+        <line num="6" count="17" type="stmt"/>
+        <line num="10" count="17" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
         <line num="22" count="2" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
@@ -246,8 +250,8 @@
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
-        <line num="6" count="8" type="stmt"/>
-        <line num="10" count="8" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
         <line num="15" count="2" type="stmt"/>
         <line num="21" count="2" type="stmt"/>
